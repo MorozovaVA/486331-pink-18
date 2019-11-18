@@ -2,113 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HTML Academy: Пинк</title>
+  <title>HTML Academy: Пинк Страница с фото</title>
 </head>
 <body>
-  <header class="page-header">
-   <a class="page-header__logo>
-     <img class="page-header__logo-image" src="img" width="75" height="22" alt="приложение Pink">
+  <header class="page-header__nav">
+   <a class="page-header__logo" href="index.html">
+     <img class="page-header__logo-image" src="https://via.placeholder.com/75х22" width="75" height="22" alt="приложение Pink">
    </a>
    <nav class="main-nav">
      <button class="main-nav__toggle" type="button">Открыть меню</button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item">
-          <a>главная</a>
+          <a href="index.html">Главная</a>
         </li>
         <li class="site-list__item">
-          <a href="#">фотографии</a>
+          <a>Фотографии</a>
         </li>
         <li class="site-list__item">
-          <a href="#">конкурс</a>
+          <a href="form.html">Конкурс</a>
         </li>
         <li class="site-list__item">
-          <a href="#">HTML Academy</a>
+          <a href="https://htmlacademy.ru">HTML Academy</a>
         </li>
       </ul>
     </nav>
     <h1 class="page-header__heading">Фотографии пользователей</h1>
   </header>
-  <section class="photo">
-    <h2 class="visualy-hidden"> Фотографии</h2>
-    <p class="photo__heading">Взгляните на фотографии, которые выкладывают пользователи! Видите как не хватает ваших?</p>
-    <div class="photo__card">
-      <div class="card-item--panorama">
-        <img src="img" width="320" height="137">
-        <p class="flag">Панорама дня</p>
-        <b class="name">Анна</b>
-        <p class="time">(5 минут назад)</p>
-        <p class="photo-capture"> Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 215</p>
+  <main class="page-photo">
+    <section class="page-photo__user-photos">
+      <h2 class="visualy-hidden"> Фотографии</h2>
+      <p class="user-photos__heading">Взгляните на фотографии, которые выкладывают пользователи! Видите как не хватает ваших?</p>
+      <div class="user-photos__card">
+        <div class="card__card-item--panorama">
+          <img src="https://via.placeholder.com/320x137" width="320" height="137">
+          <p class="card-item__flag">Панорама дня</p>
+          <b class="card-item__name">Анна</b>
+          <p class="card-item__time">(5 минут назад)</p>
+          <p class="card-item__photo-capture"> Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои</p>
+          <img class="card-item__like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="card-item__like-counter">Нравится: 215</p>
+        </div>
+        <div class="card__card-item">
+          <img src="https://via.placeholder.com/280x180" width="280" height="180">
+          <b class="card-item__name">Левон</b>
+          <p class="card-item__time">(5 часов назад)</p>
+          <p class="card-item__photo-capture"> Вчера он на луну летал, сегодня в руки к нам попал</p>
+          <img class="like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="card-item__like-counter">Нравится: 356</p>
+        </div>
+        <div class="card__card-item">
+          <img src="https://via.placeholder.com/280x180" width="280" height="180">
+          <b class="card-item__name">Антон</b>
+          <p class="card-item__time">(12 часов назад)</p>
+          <p class="card-item__photo-capture"> Соседи будут рады</p>
+          <img class="like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="like-counter">Нравится: 666</p>
+        </div>
+        <div class="card__card-item">
+          <img src="https://via.placeholder.com/280x180" width="280" height="180">
+          <b class="card-item__name">Борис</b>
+          <p class="card-item__time">(20 часов назад)</p>
+          <p class="card-item__photo-capture"> Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <img class="card-item__like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="card-item__like-counter">Нравится: 213</p>
+        </div>
+        <div class="card__card-item">
+          <img src="https://via.placeholder.com/280x180" width="280" height="180">
+          <b class="card-item__name">Сергей</b>
+          <p class="card-item__time">(25 часов назад)</p>
+          <p class="card-item__photo-capture">Самая кубанская в мире!</p>
+          <img class="card-item__like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="card-item__like-counter">Нравится: 4</p>
+        </div>
+        <div class="card__card-item">
+          <img src="https://via.placeholder.com/280x180" width="280" height="180">
+          <b class="card-item__name">Борис</b>
+          <p class="card-item__time">(40 часов назад)</p>
+          <p class="card-item__photo-capture">Где снег-то?</p>
+          <img class="card-item__like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="card-item__like-counter">Нравится: 150</p>
+        </div>
+        <div class="card__card-item">
+          <img src="https://via.placeholder.com/280x180" width="280" height="180">
+          <b class="card-item__name">Надежда</b>
+          <p class="card-item__time">(45 часов назад)</p>
+          <p class="card-item__photo-capture">всем GM и взаимные лайки!</p>
+          <img class="card-item__like" src="https://via.placeholder.com/13x12" width="13" height="12">
+          <p class="card-item__like-counter">Нравится: 2560</p>
+        </div>
       </div>
-      <div class="card-item">
-        <img src="img" width="280" height="180">
-        <b class="name">Левон</b>
-        <p class="time">(5 часов назад)</p>
-        <p class="photo-capture"> Вчера он на луну летал, сегодня в руки к нам попал</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 356</p>
-      </div>
-      <div class="card-item">
-        <img src="img" width="280" height="180">
-        <b class="name">Антон</b>
-        <p class="time">(12 часов назад)</p>
-        <p class="photo-capture"> Соседи будут рады</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 666</p>
-      </div>
-      <div class="card-item">
-        <img src="img" width="280" height="180">
-        <b class="name">Борис</b>
-        <p class="time">(20 часов назад)</p>
-        <p class="photo-capture"> Здесь могла быть ваша цитата о высоком и вечном.</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 213</p>
-      </div>
-      <div class="card-item">
-        <img src="img" width="280" height="180">
-        <b class="name">Сергей</b>
-        <p class="time">(25 часов назад)</p>
-        <p class="photo-capture">Самая кубанская в мире!</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 4</p>
-      </div>
-      <div class="card-item">
-        <img src="img" width="280" height="180">
-        <b class="name">Борис</b>
-        <p class="time">(40 часов назад)</p>
-        <p class="photo-capture">Где снег-то?</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 150</p>
-      </div>
-      <div class="card-item">
-        <img src="img" width="280" height="180">
-        <b class="name">Надежда</b>
-        <p class="time">(45 часов назад)</p>
-        <p class="photo-capture">всем GM и взаимные лайки!</p>
-        <img class="like" src="img" width="13" height="12">
-        <p class="like-counter">Нравится: 2560</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
   <footer class="page-footer">
-    <img class="page-footer__logo-image" src="img" width="147" height="40" alt="приложение Pink">
+    <img class="page-footer__logo-image" src="https://via.placeholder.com/147x40" width="147" height="40" alt="приложение Pink">
     <div class="page-footer__social">
       <ul class="social__list">
         <li class="social__item">
-          <a class="social__link social__link--twitter"> Мы в twitter </a>
+          <a class="social__link social__link--twitter" href="#">Мы в twitter</a>
         </li>
         <li class="social__item">
-          <a class="social__link social__link--facebook"> Мы в facebook </a>
+          <a class="social__link social__link--facebook" href="#">Мы в facebook</a>
         </li>
         <li class="social__item">
-          <a class="social__link social__link--youtube"> Мы в youtube </a>
+          <a class="social__link social__link--youtube" href="#">Мы в youtube</a>
         </li>
       </ul>
     </div>
     <div class="page-footer__copyright">
-      <p class="copiright__text">Pазработано</p>
-      <a class="copiright__link href="#">Html academy</a>
+      <p class="copyright__text">Pазработано</p>
+      <a class="copyright__link" href="https://htmlacademy.ru">Html academy</a>
     </div>
   </footer>
 
