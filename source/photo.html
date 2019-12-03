@@ -34,7 +34,7 @@
       <p class="user-photos__heading">Взгляните на фотографии, которые выкладывают пользователи! Видите как не хватает ваших?</p>
       <div class="user-photos__card card">
         <div class="card__card-item card-item card-item--panorama">
-          <a href="#">
+          <a href="panorama.html">
             <img class="card-item__picture" src="https://via.placeholder.com/320x137" width="320" height="137" alt="Панорама дня">
           </a>
           <p class="card-item__flag">Панорама дня</p>
@@ -45,7 +45,7 @@
           <p class="card-item__like-counter">Нравится: 215</p>
         </div>
         <div class="card__card-item card-item">
-          <a href="#">
+          <a href="photocard.html">
             <img class="card-item__picture" src="https://via.placeholder.com/280x180" width="280" height="180" alt="фото пользователя">
           </a>
           <b class="card-item__name">Левон</b>
@@ -55,7 +55,7 @@
           <p class="card-item__like-counter">Нравится: 356</p>
         </div>
         <div class="card__card-item card-item">
-          <a href="#">
+          <a href="photocard.html">
             <img class="card-item__picture" src="https://via.placeholder.com/280x180" width="280" height="180" alt="фото пользователя">
           </a>
           <b class="card-item__name">Антон</b>
@@ -65,7 +65,7 @@
           <p class="like-counter">Нравится: 666</p>
         </div>
         <div class="card__card-item card-item">
-          <a href="#">
+          <a href="photocard.html">
             <img class="card-item__picture" src="https://via.placeholder.com/280x180" width="280" height="180" alt="фото пользователя">
           </a>
           <b class="card-item__name">Борис</b>
@@ -75,7 +75,7 @@
           <p class="card-item__like-counter">Нравится: 213</p>
         </div>
         <div class="card__card-item card-item">
-          <a href="#">
+          <a href="photocard.html">
             <img class="card-item__picture" src="https://via.placeholder.com/280x180" width="280" height="180" alt="фото пользователя">
           </a>
           <b class="card-item__name">Сергей</b>
@@ -85,7 +85,7 @@
           <p class="card-item__like-counter">Нравится: 4</p>
         </div>
         <div class="card__card-item card-item">
-          <a href="#">
+          <a href="photocard.html">
             <img class="card-item__picture" src="https://via.placeholder.com/280x180" width="280" height="180" alt="фото пользователя">
           </a>
           <b class="card-item__name">Борис</b>
@@ -95,7 +95,7 @@
           <p class="card-item__like-counter">Нравится: 150</p>
         </div>
         <div class="card__card-item card-item">
-          <a href="#">
+          <a href="photocard.html">
             <img  class="card-item__picture" src="https://via.placeholder.com/280x180" width="280" height="180" alt="фото пользователя">
           </a>
           <b class="card-item__name">Надежда</b>
@@ -108,17 +108,14 @@
     </section>
     <section class="photo-send">
       <p class="photo-send__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
-      <a href="#">
-        <img class="photo-send__image" src="https://via.placeholder.com/280x374" alt="твое фото">
-      </a>
-      <ul class="photo-send__list">
-        <li class="photo-send__item"><img src="https://via.placeholder.com/44x44" alt="иконка фильтра"></li>
-        <li class="photo-send__item"><img src="https://via.placeholder.com/44x44" alt="иконка фильтра"></li>
-        <li class="photo-send__item"><img src="https://via.placeholder.com/44x44" alt="иконка фильтра"></li>
-        <li class="photo-send__item"><img src="https://via.placeholder.com/240x2" alt="интенсивность фильтра"></li>
-      </ul>
-      <a class="button photo-button photo-button--active" href="#">Запостить</a>
-      <a class="button photo-button" href="#">Отмена</a>
+      <img class="photo-send__image" src="https://via.placeholder.com/280x374" alt="твое фото">
+      <form class="photo-send__form" method="post" action="https://echo.htmlacademy.ru">
+        <button class="photo-send__toggle" type="button"></button>
+        <button class="photo-send__toggle" type="button"></button>
+        <button class="photo-send__toggle" type="button"></button>
+        <button class="photo-send__button photo-send__button--active" type="submit" value="submit">Запостить</button>
+        <button class="photo-send__button" type="reset" value="reset">Отмена</button>
+      </form>
     </section>
   </main>
   <footer class="page-footer">

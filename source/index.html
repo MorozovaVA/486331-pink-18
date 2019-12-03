@@ -71,50 +71,67 @@
       <section class="comment">
         <h2 class="visually-hidden">Отзывы пользователей</h2>
         <h3 class="comment__name">Николай Петров</h3>
-        <blockquote class="comment__text">	&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные вещи.
+        <blockquote class="comment__text">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные вещи.
         А еще я познакомился со своей будущей женой в комментариях под фото&raquo;</blockquote>
-        <p class="comment__toggles slider__toggles">
+        <div class="comment__toggles slider">
           <button class="slider__toggle" type="button">1</button>
           <button class="slider__toggle" type="button">2</button>
           <button class="slider__toggle" type="button">3</button>
-        </p>
+        </div>
       </section>
       <section class="service-packages">
         <h2 class="visually-hidden">Пакеты услуг</h2>
-        <table class="service-packages__list">
+        <table class="service-packages__table">
           <tr>
-            <td colspan="2" class="service-packages__field service-packages__field--header">Стандарт 3.99 USD</td>
+            <th colspan="2" class="service-packages__field service-packages__field--header">База 1.99 USD</th>
+            <th colspan="2" class="service-packages__field service-packages__field--header">Стандарт 3.99 USD</th>
+            <th colspan="2" class="service-packages__field service-packages__field--header">Анлим 9.99 USD</th>
           </tr>
           <tr>
             <td class="service-packages__field">Розовый фильтр</td>
             <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="да"></td>
+            <td class="service-packages__field">Розовый фильтр</td>
+            <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="да"></td>
+            <td class="service-packages__field">Розовый фильтр</td>
+            <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="да"></td>
           </tr>
           <tr>
+            <td class="service-packages__field">Смайлики</td>
+            <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="нет"></td>
+            <td class="service-packages__field">Смайлики</td>
+            <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="да"></td>
             <td class="service-packages__field">Смайлики</td>
             <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="да"></td>
           </tr>
           <tr>
             <td class="service-packages__field">Комментарии</td>
             <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="нет"></td>
+            <td class="service-packages__field">Комментарии</td>
+            <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="нет"></td>
+            <td class="service-packages__field">Комментарии</td>
+            <td class="service-packages__icon"><img src="https://via.placeholder.com/27x26" alt="да"></td>
           </tr>
         </table>
-        <p class="service-packages__toggles slider__toggles">
+        <div class="service-packages__toggles slider">
           <button class="slider__toggle" type="button">1</button>
           <button class="slider__toggle" type="button">2</button>
           <button class="slider__toggle" type="button">3</button>
-        </p>
+        </div>
       </section>
       <section class="feedback">
-        <h2 class="visually-hidden">Обратная связь</h2>
         <h2 class="feedback__title">Остались вопросы? Свяжитесь с нами!</h2>
         <ul class="feedback__list">
           <li class="feedback__item">
             <h3 class="feedback__heading">Звоните:</h3>
-            <p class="feedback__description">+7 (812) 555-66-66</p>
+            <a href="tel:+78125556666">
+              <p class="feedback__description">+7 (812) 555-66-66</p>
+            </a>
           </li>
           <li class="feedback__item">
             <h3 class="feedback__heading">Пишите:</h3>
-            <p class="feedback__description">mail@htmlacademy.ru</p>
+            <a href="mailto:mail@htmlacademy.ru">
+              <p class="feedback__description">mail@htmlacademy.ru</p>
+            </a>
           </li>
           <li class="feedback__item">
             <h3 class="feedback__heading">Приезжайте в гости:</h3>
@@ -124,7 +141,7 @@
       </section>
       <section class="map">
         <h2 class="visually-hidden">Как добраться</h2>
-        <iframe src="https://yandex.ru/map-widget/v1/-/CBFXQGSKCD" width="320" height="200" frameborder="1" allowfullscreen="true"></iframe>
+        <div class="map__frame"></div>
       </section>
     </main>
   </body>

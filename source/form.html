@@ -29,7 +29,39 @@
     <h1 class="page-header__heading">Конкурс на самое безбашенное путешествие с Пинк</h1>
     </header>
     <main class="page-form">
-
+      <p class="page-form__title">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
+        Пожалуйста, заполните форму ниже:</p>
+      <form class="page-form__form" method="post" action="https://echo.htmlacademy.ru">
+        <label class="page-form__label">Фамилия:<input class="page-form__name" type="text" name="surname" required placeholder="Укажите фамилию *"></label>
+        <label class="page-form__label">Имя:<input class="page-form__name" type="text" name="name" required placeholder="Введите ваше имя *"></label>
+        <label class="page-form__label">Отчество:<input class="page-form__name" type="text" name="name" placeholder="Ну и отчество тоже"></label>
+        <fieldset class="page-form__application">
+          <legend class="page-form__legend">С каким приложением путешествовали?</legend>
+          <label class="page-form__label"><input class="page-form__radio" type="radio" value="iOS" checked>Pink для iOS</label>
+          <label class="page-form__label"><input class="page-form__radio" type="radio" value="Android">Pink на Android</label>
+          <label class="page-form__label"><input class="page-form__radio" type="radio" value="Windows Phone">Windows Phone</label>
+        </fieldset>
+        <fieldset class="page-form__contact">
+          <legend class="page-form__legend">Контактная информация</legend>
+          <label class="page-form__label"><input class="page-form__tel" type="tel" placeholder="Номер, пожалуйста">Номер телефона</label>
+          <label class="page-form__label"><input class="page-form__email" type="email" required placeholder="Введите почту *">Адрес почты</label>
+        </fieldset>
+        <fieldset class="page-form__progress">
+          <legend class="page-form__legend">Ваши безбашенные достижения в путешествии</legend>
+          <label class="page-form__label"><input class="page-form__checkbox" type="checkbox" name="shark" checked>Сделал селфи с акулой</label>
+          <label class="page-form__label"><input class="page-form__checkbox" type="checkbox" name="beach" checked>Обгорел на пляже</label>
+          <label class="page-form__label"><input class="page-form__checkbox" type="checkbox" name="Chuck Norris">Видел Чака Норриса</label>
+          <label class="page-form__label"><input class="page-form__checkbox" type="checkbox" name="souvenir">Накупил сувениров</label>
+          <label class="page-form__label"><input class="page-form__checkbox" type="checkbox" name="tower" checked>Удержал башню</label>
+          <label class="page-form__label"><input class="page-form__checkbox" type="checkbox" name="hotel">Разгромил отель</label>
+        </fieldset>
+        <fieldset class="page-form__emotion">
+          <legend class="page-form__legend">Опишите свои эмоции</legend>
+          <textarea class="page-form__textarea" rows="6" cols="50">Можно прям в красках, не стесняясь в выражениях</textarea>
+        </fieldset>
+        <input class="page-form__button" type="submit" value="Отправить форму">
+      </form>
+      <p class="page-form__signature">*-Обязательные поля</p>
     </main>
     <footer class="page-footer">
       <img class="page-footer__logo-image" src="https://via.placeholder.com/75x22" width="147" height="40" alt="приложение Pink">
